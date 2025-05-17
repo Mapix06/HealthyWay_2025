@@ -25,8 +25,16 @@ namespace HealthyWay_2025.models
         {
         }
 
-        public Account(int idACCOUNT, string firstNameAccount, string secondNameAccount,
-            string lastName1Account, string lastName2Account, string email, string password, string rol, string numIdentificacion, string codigoEstudiante)
+        public Account(int idACCOUNT,
+                       string firstNameAccount,
+                       string secondNameAccount,
+                       string lastName1Account,
+                       string lastName2Account,
+                       string email,
+                       string password,
+                       string rol,
+                       string numIdentificacion,
+                       string codigoEstudiante)
         {
             this.idACCOUNT = idACCOUNT;
             this.firstNameAccount = firstNameAccount;
@@ -40,8 +48,15 @@ namespace HealthyWay_2025.models
             this.codigoEstudiante = codigoEstudiante;
         }
 
-        public Account(string firstNameAccount, string secondNameAccount, string lastName1Account,
-            string lastName2Account, string email, string password, string rol, string numIdentificacion, string codigoEstudiante)
+        public Account(string firstNameAccount,
+                       string secondNameAccount,
+                       string lastName1Account,
+                       string lastName2Account,
+                       string email,
+                       string password,
+                       string rol,
+                       string numIdentificacion,
+                       string codigoEstudiante)
         {
             this.firstNameAccount = firstNameAccount;
             this.secondNameAccount = secondNameAccount;
@@ -54,16 +69,66 @@ namespace HealthyWay_2025.models
             this.codigoEstudiante = codigoEstudiante;
         }
 
-        public int IdACCOUNT { get => idACCOUNT; set => idACCOUNT = value; }
-        public string FirstNameAccount { get => firstNameAccount; set => firstNameAccount = value; }
-        public string SecondNameAccount { get => secondNameAccount; set => secondNameAccount = value; }
-        public string LastName1Account { get => lastName1Account; set => lastName1Account = value; }
-        public string LastName2Account { get => lastName2Account; set => lastName2Account = value; }
-        public string Email { get => email; set => email = value; }
-        public string Password { get => password; set => password = value; }
-        public string Rol { get => rol; set => rol = value; }
-        public string NumIdentificacion { get => numIdentificacion; set => numIdentificacion = value; }
-        public string CodigoEstudiante { get => codigoEstudiante; set => codigoEstudiante = value; }
-    }
+        public Account(string firstNameAccount,
+                       string secondNameAccount,
+                       string lastName1Account,
+                       string lastName2Account,
+                       string email,
+                       string password,
+                       string numIdentificacion,
+                       string codigoEstudiante)
+            : this(firstNameAccount,
+                   secondNameAccount,
+                   lastName1Account,
+                   lastName2Account,
+                   email,
+                   password,
+                   "Estudiante",        // rol por defecto
+                   numIdentificacion,
+                   codigoEstudiante)
+        {
+        }
 
+
+        public int IdACCOUNT
+        {
+            get => idACCOUNT; set => idACCOUNT = value;
+        }
+        public string FirstNameAccount
+        {
+            get => firstNameAccount; set => firstNameAccount = value;
+        }
+        public string SecondNameAccount
+        {
+            get => secondNameAccount; set => secondNameAccount = value;
+        }
+        public string LastName1Account
+        {
+            get => lastName1Account; set => lastName1Account = value;
+        }
+        public string LastName2Account
+        {
+            get => lastName2Account; set => lastName2Account = value;
+        }
+        public string Email
+        {
+            get => email; set => email = value;
+        }
+        public string Password
+        {
+            get => password; set => password = value;
+        }
+        public string Rol
+        {
+            get => rol; set => rol = value;
+        }
+        public string NumIdentificacion
+        {
+            get => numIdentificacion; set => numIdentificacion = value;
+        }
+        public string CodigoEstudiante
+        {
+            get => codigoEstudiante; set => codigoEstudiante = value;
+        }
+    }
 }
