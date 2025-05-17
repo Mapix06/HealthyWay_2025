@@ -1,6 +1,6 @@
 ﻿namespace HealthyWay_2025.views
 {
-    partial class UI_Historial
+    partial class UI_HistorialES
     {
         /// <summary>
         /// Required designer variable.

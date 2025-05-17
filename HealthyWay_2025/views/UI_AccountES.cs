@@ -13,10 +13,10 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace HealthyWay_2025.views
 {
-    public partial class UI_Account : Form
+    public partial class UI_AccountES : Form
     {
         private readonly ControllerAccount _ctrl = new ControllerAccount();
-        public UI_Account()
+        public UI_AccountES()
         {
             InitializeComponent();
 
@@ -48,7 +48,6 @@ namespace HealthyWay_2025.views
                 string.IsNullOrWhiteSpace(textBox3.Text) ||
                 string.IsNullOrWhiteSpace(textBox5.Text) ||
                 string.IsNullOrWhiteSpace(textBox6.Text) ||
-                comboBox1.SelectedIndex < 0 ||
                 string.IsNullOrWhiteSpace(textBox7.Text))
             {
                 MessageBox.Show(
@@ -79,7 +78,6 @@ namespace HealthyWay_2025.views
                 textBox4.Text.Trim(),    // LastName2 (opcional)
                 textBox5.Text.Trim(),    // Email
                 textBox6.Text,           // Password
-                comboBox1.SelectedItem.ToString(), // Rol
                 textBox7.Text.Trim(),    // Identification
                 textBox8.Text.Trim()     // StudentCode (si aplica)
             );

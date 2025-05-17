@@ -1,6 +1,6 @@
 ﻿namespace HealthyWay_2025.views
 {
-    partial class UI_Account
+    partial class UI_AccountES
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,6 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,15 +44,15 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(217, 39);
+            this.label1.Location = new System.Drawing.Point(142, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 44);
+            this.label1.Size = new System.Drawing.Size(481, 44);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Registrar Cuenta";
+            this.label1.Text = "Registrar Cuenta Estudiante";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(158, 145);
+            this.textBox1.Location = new System.Drawing.Point(157, 155);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(208, 22);
             this.textBox1.TabIndex = 4;
@@ -61,7 +60,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(401, 145);
+            this.textBox2.Location = new System.Drawing.Point(400, 155);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(208, 22);
             this.textBox2.TabIndex = 5;
@@ -69,7 +68,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(158, 184);
+            this.textBox3.Location = new System.Drawing.Point(157, 194);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(208, 22);
             this.textBox3.TabIndex = 6;
@@ -77,7 +76,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(401, 184);
+            this.textBox4.Location = new System.Drawing.Point(400, 194);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(208, 22);
             this.textBox4.TabIndex = 7;
@@ -85,7 +84,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(158, 227);
+            this.textBox5.Location = new System.Drawing.Point(157, 237);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(208, 22);
             this.textBox5.TabIndex = 8;
@@ -93,7 +92,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(401, 227);
+            this.textBox6.Location = new System.Drawing.Point(400, 237);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(208, 22);
             this.textBox6.TabIndex = 9;
@@ -101,7 +100,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(401, 271);
+            this.textBox7.Location = new System.Drawing.Point(400, 281);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(208, 22);
             this.textBox7.TabIndex = 10;
@@ -109,40 +108,27 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(158, 314);
+            this.textBox8.Location = new System.Drawing.Point(157, 281);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(451, 22);
+            this.textBox8.Size = new System.Drawing.Size(208, 22);
             this.textBox8.TabIndex = 11;
             this.textBox8.Text = "Codigo Estudiante";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Docente",
-            "Estudiante"});
-            this.comboBox1.Location = new System.Drawing.Point(158, 271);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(208, 24);
-            this.comboBox1.TabIndex = 12;
-            this.comboBox1.Text = "Rol";
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(324, 355);
+            this.button1.Location = new System.Drawing.Point(319, 334);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 32);
             this.button1.TabIndex = 13;
             this.button1.Text = "Crear";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // UI_Account
+            // UI_AccountES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
@@ -152,7 +138,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "UI_Account";
+            this.Name = "UI_AccountES";
             this.Text = "UI_Account";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -170,7 +156,6 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
     }
 }

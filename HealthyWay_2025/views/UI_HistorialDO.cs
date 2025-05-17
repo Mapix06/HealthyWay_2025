@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HealthyWay_2025.views
 {
-    public partial class UI_Historial : Form
+    public partial class UI_HistorialDO : Form
     {
-        public UI_Historial()
+        public UI_HistorialDO()
         {
             InitializeComponent();
         }

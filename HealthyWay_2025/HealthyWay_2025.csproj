@@ -122,11 +122,17 @@
     <Compile Include="models\Material.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="views\UI_Account.cs">
+    <Compile Include="views\UI_AccountDO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\UI_Account.Designer.cs">
-      <DependentUpon>UI_Account.cs</DependentUpon>
+    <Compile Include="views\UI_AccountDO.Designer.cs">
+      <DependentUpon>UI_AccountDO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\UI_AccountES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\UI_AccountES.Designer.cs">
+      <DependentUpon>UI_AccountES.cs</DependentUpon>
     </Compile>
     <Compile Include="views\UI_Comentario.cs">
       <SubType>Form</SubType>
@@ -134,17 +140,17 @@
     <Compile Include="views\UI_Comentario.Designer.cs">
       <DependentUpon>UI_Comentario.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\UI_Historial.cs">
+    <Compile Include="views\UI_HistorialDO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\UI_Historial.Designer.cs">
-      <DependentUpon>UI_Historial.cs</DependentUpon>
+    <Compile Include="views\UI_HistorialDO.Designer.cs">
+      <DependentUpon>UI_HistorialDO.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\UI_InsertCategory.cs">
+    <Compile Include="views\UI_HistorialES.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\UI_InsertCategory.Designer.cs">
-      <DependentUpon>UI_InsertCategory.cs</DependentUpon>
+    <Compile Include="views\UI_HistorialES.Designer.cs">
+      <DependentUpon>UI_HistorialES.cs</DependentUpon>
     </Compile>
     <Compile Include="views\UI_InsertMaterial.cs">
       <SubType>Form</SubType>
@@ -161,17 +167,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="views\UI_Account.resx">
-      <DependentUpon>UI_Account.cs</DependentUpon>
+    <EmbeddedResource Include="views\UI_AccountDO.resx">
+      <DependentUpon>UI_AccountDO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\UI_AccountES.resx">
+      <DependentUpon>UI_AccountES.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\UI_Comentario.resx">
       <DependentUpon>UI_Comentario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\UI_Historial.resx">
-      <DependentUpon>UI_Historial.cs</DependentUpon>
+    <EmbeddedResource Include="views\UI_HistorialDO.resx">
+      <DependentUpon>UI_HistorialDO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\UI_InsertCategory.resx">
-      <DependentUpon>UI_InsertCategory.cs</DependentUpon>
+    <EmbeddedResource Include="views\UI_HistorialES.resx">
+      <DependentUpon>UI_HistorialES.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\UI_InsertMaterial.resx">
       <DependentUpon>UI_InsertMaterial.cs</DependentUpon>
