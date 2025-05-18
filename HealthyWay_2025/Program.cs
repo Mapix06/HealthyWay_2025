@@ -18,8 +18,8 @@ namespace HealthyWay_2025
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new UI_InsertCategory());
-            //Application.Run(new UI_InsertMaterial());
-            Application.Run(new UI_AccountDO());
+            Application.Run(new UI_InsertMaterial());
+            //Application.Run(new UI_AccountDO());
             //Application.Run(new UI_AccountES());
         }
     }

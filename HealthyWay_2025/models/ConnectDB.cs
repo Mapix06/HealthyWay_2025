@@ -13,7 +13,7 @@ namespace HealthyWay_2025.models
     {
         public MySqlConnection connManager = new MySqlConnection();
         string server = "127.0.0.1;";
-        string database = "healthyway2;";
+        string database = "healthyway;";
         string user = "root;";
         string pass = "root;";
 

@@ -15,9 +15,7 @@ namespace HealthyWay_2025.models
 
         ConnectDB objConection = new ConnectDB();
 
-        public Category()
-        {
-        }
+        public Category() {}
 
         public Category(int idCategory, string nameCategory, string descriptionCategory)
         {

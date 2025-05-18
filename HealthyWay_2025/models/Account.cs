@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealthyWay_2025.models
 {
-    internal class Account
+    public class Account
     {
         private int idACCOUNT;
         private string firstNameAccount;
@@ -77,15 +77,8 @@ namespace HealthyWay_2025.models
                        string password,
                        string numIdentificacion,
                        string codigoEstudiante)
-            : this(firstNameAccount,
-                   secondNameAccount,
-                   lastName1Account,
-                   lastName2Account,
-                   email,
-                   password,
-                   "Estudiante",        // rol por defecto
-                   numIdentificacion,
-                   codigoEstudiante)
+
+            : this(firstNameAccount, secondNameAccount,lastName1Account, lastName2Account, email,password,"Estudiante",numIdentificacion, codigoEstudiante)
         {
         }
 

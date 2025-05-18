@@ -47,7 +47,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(233, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(305, 45);
+            this.label1.Size = new System.Drawing.Size(296, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Insertar Material";
             // 
@@ -88,7 +88,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(331, 349);
+            this.button1.Location = new System.Drawing.Point(142, 349);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 43);
             this.button1.TabIndex = 5;
@@ -104,17 +104,17 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(446, 104);
+            this.pictureBox1.Location = new System.Drawing.Point(416, 104);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(223, 229);
+            this.pictureBox1.Size = new System.Drawing.Size(253, 229);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(494, 354);
+            this.button2.Location = new System.Drawing.Point(476, 349);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 32);
+            this.button2.Size = new System.Drawing.Size(132, 43);
             this.button2.TabIndex = 7;
             this.button2.Text = "Agregar archivo";
             this.button2.UseVisualStyleBackColor = true;
